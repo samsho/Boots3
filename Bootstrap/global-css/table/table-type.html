@@ -1,0 +1,144 @@
+<!--
+Bootstrap 表格类型
+Sam-Sho
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 表格</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap-theme.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        td {
+            font-size: 15px;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+
+<div class="h5">1、基本实例</div>
+<table class="table">
+    <thead>
+    <tr>
+        <td>姓名</td>
+        <td>密码</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>sam</td>
+        <td>123</td>
+    </tr>
+    </tbody>
+</table>
+
+<br/>
+<br/>
+<br/>
+
+<div class="h5">2、条纹状表格：通过 .table-striped 类可以给之内的每一行增加斑马条纹样式。</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <td>姓名</td>
+        <td>密码</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>sam</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>蜡笔</td>
+        <td>456</td>
+    </tr>
+    <tr>
+        <td>rabbi</td>
+        <td>789</td>
+    </tr>
+    </tbody>
+</table>
+
+<br/>
+<br/>
+<br/>
+<div class="h5">3、带边框的表格：添加 .table-bordered 类为表格和其中的每个单元格增加边框。</div>
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr>
+        <td>姓名</td>
+        <td>密码</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>sam</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>蜡笔</td>
+        <td>456</td>
+    </tr>
+    <tr>
+        <td>rabbi</td>
+        <td>789</td>
+    </tr>
+    </tbody>
+</table>
+
+<br/>
+<br/>
+<br/>
+<div class="h5">4、鼠标悬停：通过添加 .table-hover 类可以让 <tbody> 中的每一行对鼠标悬停状态作出响应。。</div>
+<table class="table table-striped table-bordered table-hover ">
+    <thead>
+    <tr>
+        <td>姓名</td>
+        <td>密码</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>sam</td>
+        <td>123</td>
+    </tr>
+    <tr>
+        <td>蜡笔</td>
+        <td>456</td>
+    </tr>
+    <tr>
+        <td>rabbi</td>
+        <td>789</td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- jQuery 必须在前 -->
+<script src="../../../static/jquery/jquery-3.1.0.js"></script>
+<!-- Bootstrap  -->
+<script src="../../../static/bootstrap/js/bootstrap.js"></script>
+
+<script>
+    $(function() {
+        console.info("Boots----->Sam Sho ")
+    })
+
+</script>
+</body>
+</html>

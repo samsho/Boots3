@@ -1,0 +1,297 @@
+<!--
+Bootstrap 表单控件
+Sam-Sho
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 表单控件</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap-theme.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+
+    <div class="h4">
+        1、表单控件
+    </div>
+    <form class="form-horizontal" role="form">
+
+        <!--base-->
+        <div class="form-group">
+            <label class="col-sm-4 control-label" for="userName">姓名</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="userName" placeholder="姓名"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-4 control-label" for="password">密码</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" id="password" placeholder="密码"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="number" class="col-sm-4 control-label">Number</label>
+            <div class="col-sm-4">
+                <input type="number" class="form-control" id="number" placeholder="Number">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="tel" class="col-sm-4 control-label">tel</label>
+            <div class="col-sm-4">
+                <input type="tel" class="form-control" id="tel" placeholder="tel">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="search" class="col-sm-4 control-label">search</label>
+            <div class="col-sm-4">
+                <input type="search" class="form-control" id="search" placeholder="search">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="date" class="col-sm-4 control-label">date</label>
+            <div class="col-sm-4">
+                <input type="date" class="form-control" id="date" placeholder="date">
+            </div>
+        </div>
+
+        <!--textarea-->
+        <div class="form-group">
+            <label for="text-area" class="col-sm-4 control-label">text-area</label>
+            <div class="col-sm-4">
+                <textarea rows="3" class="form-control" id="text-area" placeholder="text-area"></textarea>
+            </div>
+        </div>
+
+        <!--checkbox and radio-->
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me 2
+                    </label>
+                </div>
+
+                <div class="checkbox" disabled>
+                    <label>
+                        <input type="checkbox" disabled> Remember me disabled
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Option one
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Option two
+                    </label>
+                </div>
+                <div class="radio disabled">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                        Option three is disabled
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                </label>
+            </div>
+        </div>
+
+        <!--select-->
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Sample Select</label>
+            <div class="col-sm-4">
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">multiple Select</label>
+            <div class="col-sm-4">
+                <select multiple class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <!--静态-->
+        <div class="form-group">
+            <label class="col-sm-4 control-label">静态</label>
+            <div class="col-sm-4">
+                <p class="form-control-static">email@example.com</p>
+            </div>
+        </div>
+
+        <!--校验状态-->
+        <div class="form-group has-success">
+            <label class="col-sm-4 control-label" for="inputSuccess1">Input with success</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputSuccess1">
+            </div>
+        </div>
+        <div class="form-group has-warning">
+            <label class="col-sm-4 control-label" for="inputWarning1">Input with warning</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputWarning1">
+            </div>
+        </div>
+        <div class="form-group has-error">
+            <label class="col-sm-4 control-label" for="inputError1">Input with error</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputError1">
+            </div>
+        </div>
+
+        <!--有图标的校验,图标与js的存放路径一定要准确-->
+        <div class="form-group has-success has-feedback">
+            <label class="col-sm-4 control-label" for="inputSuccess2">Input with success</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputSuccess2">
+                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            </div>
+        </div>
+        <div class="form-group has-warning has-feedback">
+            <label class="col-sm-4 control-label" for="inputWarning2">Input with warning</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputWarning2">
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            </div>
+        </div>
+        <div class="form-group has-error has-feedback">
+            <label class="col-sm-4 control-label" for="inputError2">Input with error</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputError2">
+                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </div>
+
+        <!--button-->
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-6">
+                <button type="submit" class="btn btn-default">Sign in</button>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-success">Sign in</button>
+                <button type="submit" class="btn btn-info">Sign in</button>
+                <button type="submit" class="btn btn-warning">Sign in</button>
+                <button type="submit" class="btn btn-danger">Sign in</button>
+                <button type="submit" class="btn btn-link">Sign in</button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-6">
+                <button type="button" class="btn btn-primary btn-xs"> button 按钮</button>
+                <button type="button" class="btn btn-primary btn-sm">Sign in</button>
+                <button type="button" class="btn btn-primary">Sign in</button>
+                <button type="button" class="btn btn-primary btn-lg">Sign in</button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+                <button type="button" class="btn btn-primary btn-block">长型按钮</button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-8">
+                <a href="#" class="btn btn-success active" role="button">A标签按钮</a>
+                <a href="#" class="btn btn-primary" role="button" disabled="disabled">disabled按钮</a>
+                <a class="btn btn-default" href="#" role="button">Link</a>
+                <button class="btn btn-default" type="submit">Button 建议使用</button>
+                <input class="btn btn-default" type="button" value="Input">
+                <input class="btn btn-default" type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+
+    <br/><br/><br/>
+
+</div>
+<!-- jQuery 必须在前 -->
+<script src="../../../static/jquery/jquery-3.1.0.js"></script>
+<!-- Bootstrap  -->
+<script src="../../../static/bootstrap/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        console.info("Boots----->Sam Sho ")
+    })
+
+</script>
+</body>
+</html>
