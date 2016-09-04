@@ -1,0 +1,72 @@
+<!--
+Bootstrap 警告框
+Sam-Sho
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 警告框</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap-theme.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+
+    <!--基础警告-->
+    <div class="alert alert-success" role="alert">...</div>
+    <div class="alert alert-info" role="alert">...</div>
+    <div class="alert alert-warning" role="alert">...</div>
+    <div class="alert alert-danger" role="alert">...</div>
+
+
+    <!--可关闭的警告框-->
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </div>
+
+    <!--警告框中的链接-->
+    <div class="alert alert-success" role="alert">
+        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">  this important alert message.</a>
+    </div>
+    <div class="alert alert-info" role="alert">
+        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">  this important alert message.</a>
+    </div>
+    <div class="alert alert-warning" role="alert">
+        <a href="#" class="alert-link">...</a>
+    </div>
+    <div class="alert alert-danger" role="alert">
+        <a href="#" class="alert-link">...</a>
+    </div>
+
+
+</div>
+
+
+<!-- jQuery 必须在前 -->
+<script src="../../../static/jquery/jquery-3.1.0.js"></script>
+<!-- Bootstrap  -->
+<script src="../../../static/bootstrap/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        console.info("Boots----->Sam Sho ")
+    })
+
+</script>
+</body>
+</html>

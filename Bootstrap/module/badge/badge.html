@@ -1,5 +1,5 @@
 <!--
-Bootstrap 基本页面
+Bootstrap 徽章
 Sam-Sho
 -->
 
@@ -9,7 +9,7 @@ Sam-Sho
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Bootstrap 徽章</title>
 
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap.css">
@@ -23,12 +23,25 @@ Sam-Sho
     <![endif]-->
 </head>
 <body>
-<h1>你好，世界！</h1>
+    <div class="container">
 
-<div class="container">
+        <!--徽章-->
+        <a href="#">Inbox <span class="badge">42</span></a>
+        <button class="btn btn-primary" type="button">
+            Messages <span class="badge">4</span>
+        </button>
+        <br/><br/><br/>
 
-</div>
 
+        <!--徽章-->
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+        </ul>
+
+
+    </div>
 
 <!-- jQuery 必须在前 -->
 <script src="../../../static/jquery/jquery-3.1.0.js"></script>
