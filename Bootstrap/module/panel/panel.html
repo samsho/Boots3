@@ -1,0 +1,126 @@
+<!--
+Bootstrap 面板
+Sam-Sho
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 面板</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="../../../static/bootstrap/css/bootstrap-theme.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="h3 text-center">面板</div>
+
+    <!--基本实例-->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            Basic panel example
+        </div>
+    </div>
+
+    <br/>
+    <!--带标题的面版-->
+    <div class="panel panel-default">
+        <div class="panel-heading">Panel heading without title</div>
+        <div class="panel-body">
+            Panel content
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+            Panel content
+        </div>
+    </div>
+
+    <!--情境效果-->
+    <div class="panel panel-primary">...</div>
+    <div class="panel panel-success">...</div>
+    <div class="panel panel-info">...</div>
+    <div class="panel panel-warning">...</div>
+    <div class="panel panel-danger">...</div>
+
+
+    <!--带表格的面版-->
+    <div class="panel panel-primary">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+            <p>panel-body 这边可以加东西</p>
+        </div>
+
+        <!-- Table -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>用户名</td>
+                    <td>密码</td>
+                    <td>邮箱</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="panel panel-primary">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <!-- Table -->
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <td>用户名</td>
+                <td>密码</td>
+                <td>邮箱</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+<!-- jQuery 必须在前 -->
+<script src="../../../static/jquery/jquery-3.1.0.js"></script>
+<!-- Bootstrap  -->
+<script src="../../../static/bootstrap/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        console.info("Boots----->Sam Sho ")
+    })
+
+</script>
+</body>
+</html>
